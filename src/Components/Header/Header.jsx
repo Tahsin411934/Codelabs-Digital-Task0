@@ -10,7 +10,7 @@ const Header = () => {
                 paddingTop: '1rem', // Adjust padding as needed
             }}
         >
-            <Navbar fluid rounded className="bg-transparent  container w-[1160px] mt-3 mx-auto font-Inter">
+            <Navbar fluid rounded className="bg-transparent  container lg:w-[1160px] mt-3 mx-auto font-Inter">
                 <Navbar.Brand href="#">
                     <img
                         width={100}

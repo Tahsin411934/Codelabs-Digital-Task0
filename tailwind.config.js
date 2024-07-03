@@ -16,8 +16,7 @@ export default {
       },
       fontFamily: {
         Inter: '"Inter", sans-serif',
-        // Prata: '"Prata", serif',
-        // Oswald: '"Oswald", sans-serif'
+      
       }
     },
   },
