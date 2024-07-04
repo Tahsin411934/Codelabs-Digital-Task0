@@ -1,8 +1,8 @@
-import React from 'react';
+
 
 const Footer = () => {
     return (
-        <footer className="px-4 bg-[#020043] mt-96 divide-y ">
+        <footer className="px-4 bg-[#020043] mt-44 divide-y ">
 	<div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
 		<div className="lg:w-1/3">
 			<a rel="noopener noreferrer" href="#" className="flex justify-center space-x-3 lg:justify-start">
