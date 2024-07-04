@@ -11,7 +11,7 @@ const Testimonial = () => {
                     <h1 className="font-semibold text-[30px] text-[#020043]  mt-2">We Help To Get Solutions</h1>
 
                 </div>
-                <div className="grid grid-cols-3">
+                <div className="lg:grid grid-cols-3">
                     <div className="p-5">
                         <h1 className="font-semibold text-[19px] text-[#020043] w-[80%] mb-1">Expertise and Compassion Combined</h1>
                         <p className="font-normal text-[12px] text-primary mb-6 w-[90%]">I can't thank enough for their exceptional care. The doctors and staff showed incredible expertise and compassion throughout my treatment journey. I felt truly cared for every step of the way.</p>

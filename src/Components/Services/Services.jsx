@@ -5,7 +5,7 @@ import { MdArrowOutward } from 'react-icons/md';
 const Services = () => {
     return (
         <div className="lg:max-w-[1180px] pt-20 h-full font-Inter mx-auto">
-            <div className="grid grid-cols-2 items-center justify-center  gap-10">
+            <div className="lg:grid grid-cols-2 items-center justify-center  gap-10">
                 <div className="mt-20">
                     <button className="border border-[#020043] text-base bg-transparent text-primary rounded-full p-2 mb-4">Services</button>
                     <h1 className="font-semibold text-[30px] text-[#020043] w-[50%] mt-2">We Help To Get Solutions</h1>
