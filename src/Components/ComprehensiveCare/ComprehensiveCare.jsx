@@ -42,13 +42,9 @@ const ComprehensiveCare = () => {
                                 <img width={75} height={45} src="Group.png" alt="" />
                             </div>
                         </div>
-
-
-
-
                     </div>
-
                 </div>
+
 
                 <div className="hidden lg:flex">
                 <div className="col-span-1 bg-[#FBFBFB]  rounded-3xl p-[20px]">
@@ -61,7 +57,6 @@ const ComprehensiveCare = () => {
                 </div>
                 </div>
             </div>
-
         </div>
     );
 };

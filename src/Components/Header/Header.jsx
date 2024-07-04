@@ -1,15 +1,15 @@
-import { Button, Navbar } from 'flowbite-react'; // Importing components from flowbite-react
+import { Button, Navbar } from 'flowbite-react';
 
 const Header = () => {
     return (
         <div
-           
             style={{
                 backgroundImage: `linear-gradient(to right, #e2e2ea, #e7e7ee, #ededf2, #f2f2f6, #f8f8fa, #f8f8fa, #f8f8fa, #f8f8fa, #f2f2f6, #ededf2, #e7e7ee, #e2e2ea)`,
-                height: '100px', 
-                paddingTop: '1rem', // Adjust padding as needed
+                height: '100px',
+                paddingTop: '1rem',
             }}
         >
+            {/*website logo */}
             <Navbar fluid rounded className="bg-transparent  container lg:w-[1160px] mt-3 mx-auto font-Inter">
                 <Navbar.Brand href="#">
                     <img
@@ -20,6 +20,8 @@ const Header = () => {
                         alt="Logo"
                     />
                 </Navbar.Brand>
+
+    {/* Navbar manu start */}
                 <div className="flex md:order-2">
                     <Button className="bg-transparent font-medium hover:text-white text-base text-[#020043] border border-[#020043]">
                         Appointment
@@ -34,26 +36,21 @@ const Header = () => {
                         href="#"
                         className="font-normal text-base text-textPrimaryColor"
                     >
-                        About
-                    </Navbar.Link>
-                    <Navbar.Link
-                        href="#"
-                        className="font-normal text-base text-textPrimaryColor"
-                    >
                         Services
                     </Navbar.Link>
                     <Navbar.Link
                         href="#"
                         className="font-normal text-base text-textPrimaryColor"
                     >
-                        Pricing
+                        Blog
                     </Navbar.Link>
                     <Navbar.Link
                         href="#"
                         className="font-normal text-base text-textPrimaryColor"
                     >
-                        Contact
+                        About
                     </Navbar.Link>
+ {/* Navbar manu end */}
                 </Navbar.Collapse>
             </Navbar>
         </div>
