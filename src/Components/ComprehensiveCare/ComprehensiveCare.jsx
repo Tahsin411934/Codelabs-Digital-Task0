@@ -2,7 +2,7 @@
 
 const ComprehensiveCare = () => {
     return (
-        <div className="bg-gradient-to-b mb-36 from-[#9190AD] to-[#FFFFF5] " >
+        <div className="bg-gradient-to-b mb-36 from-[#bbbbc7] to-[#FFFFF5] " >
             <div className="pt-10 lg:max-w-[1180px] h-full mx-auto  grid grid-cols-5 gap-5">
                 <div className="col-span-1 bg-[#FBFBFB]  rounded-3xl p-[20px]">
                     <h1 className="font-semibold text-[40px] text-[#020043]">90%</h1>
